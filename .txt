@@ -1,0 +1,61 @@
+Getting Started
+    Install and Setup
+    Start New Project
+    Django File Structure
+
+Django Apps
+    Create New App
+    Register App and URL
+
+Templates
+    Using Templates
+    Load data from JSON file
+    Template Filers and Tags
+
+URLs
+    Mapping app URLs to Project URLs
+    Dynamic Routing
+    Handling 404
+
+Database, Models & Migrations
+    Create Database, Migrations and Models
+    Migration Updates
+    Query Filter
+
+Django Admin
+    Intro to Django Admin
+    Django Admin CRUD
+
+Views & Generic Views
+    Generic List View
+    Generic Detail View
+
+Model Relationships
+    One to One Relationships
+    One to Many Relationships
+    Many to Many Relationships
+    Query between them
+
+Authentication
+    Django Authentication Intro
+    Login and Redirect
+    Using Middleware
+    Logout
+
+Reset Password & Email Sending
+    Reset Password
+    Email - Reset Password link
+    Email SMTP setup
+
+File Uploading
+    Upload an Image from Django Admin
+    Upload Image manually
+
+Django Forms
+    Working with Django Form
+    Convert normal form to Django Form
+    Image Upload with Django Form
+
+Deploy to Heroku
+    Prepare Django to deploy on any platform
+    Deploy using Heroku CLI using Git
