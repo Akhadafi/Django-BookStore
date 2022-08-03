@@ -59,3 +59,47 @@ Django Forms
 Deploy to Heroku
     Prepare Django to deploy on any platform
     Deploy using Heroku CLI using Git
+
+https://youtu.be/aY43fUGlB7E
+🌟 Course Contents 🌟
+⏳ (00:00:00) Intro and What we will Learn
+⏳ (00:05:15) Install and Setup
+⏳ (00:11:52) Start New Project
+⏳ (00:18:42) File Structure
+⏳ (00:25:52) Start New App
+⏳ (00:33:10) Register App &  URL
+⏳ (00:44:47) Using Template
+⏳ (00:51:49) Load Data from JSON file
+⏳ (00:58:37) Design using Tailwindcss
+⏳ (01:02:40) Dynamic Routing
+⏳ (01:09:34) Template Filter and Tags
+⏳ (01:16:19) Database Migration & Model
+⏳ (01:26:56) Migration Update
+⏳ (01:31:17) Query Filter & Create
+⏳ (01:39:43) Show Data from Database
+⏳ (01:44:39) Intro to Django Admin
+⏳ (01:50:37) Django Admin CRUD
+⏳ (01:58:42) Handle Not Found 404
+⏳ (02:05:47) Form CSRF Token
+⏳ (02:12:08) Store New Review
+⏳ (02:23:37) Order by Review & Link Book
+⏳ (02:31:21) Generic List View
+⏳ (02:41:11) Generic Detail View
+⏳ (02:46:41) Relationship in Django
+⏳ (02:58:02) Template Inheritance
+⏳ (03:05:56) Many to Many Relationship
+⏳ (03:19:07) Query Many to Many Relationship
+⏳ (03:26:29) Authentication Intro
+⏳ (03:33:42) Login and Redirect User
+⏳ (03:41:23) Using Middleware
+⏳ (03:49:02) Logout a User
+⏳ (03:58:50) Restrict user on template
+⏳ (04:04:38) Connect user with Review
+⏳ (04:14:02) Reset Password
+⏳ (04:24:16) Email SMTP settings
+⏳ (04:37:33) Image upload for Book
+⏳ (04:48:21) Store image for Review
+⏳ (04:55:54) Working with Django Forms
+⏳ (05:05:55) Upload File with model form
+⏳ (05:17:35) Prepare Django for deployment
+⏳ (05:30:53) Deploy Django to Heroku
