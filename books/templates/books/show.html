@@ -19,6 +19,23 @@
       <p>{{ book.pageCount }}</p>
       <p>{{ book.shortDescription }}</p>
       <p>{{ book.longDescription }}</p>
+      <br />
+      <form action="" method="post">
+        {% csrf_token %}
+        <textarea
+          name="review"
+          class="border rounded p-2 w-full"
+          id=""
+          cols="30"
+          rows="10"
+        ></textarea>
+        <button
+          type="submit"
+          class="fload-right border rounded p-2 bg-gray-800 text-white"
+        >
+          Submit
+        </button>
+      </form>
     </section>
   </body>
 </html>
