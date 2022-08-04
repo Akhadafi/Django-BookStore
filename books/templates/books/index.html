@@ -4,13 +4,24 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
     <title>Book Apps</title>
   </head>
   <body>
-    <h1>Django Books App</h1>
-    {% for book in books %}
-    <p>{{ book.title }}</p>
-    <img src="{{ book.thumbnailUrl }}" alt="" width="200" />
-    {% endfor %}
+    <section class="py-10">
+      <h1 class="text-center text-3xl">Django Books App</h1>
+
+      <div class="grid grid-cols-4 gap-4 mt-10">
+        {% for book in books %}
+        <div class="justify-self-center">
+          <p>{{ book.title }}</p>
+          <img src="{{ book.thumbnailUrl }}" alt="" width="200" />
+        </div>
+        {% endfor %}
+      </div>
+    </section>
   </body>
 </html>
