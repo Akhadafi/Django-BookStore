@@ -20,7 +20,7 @@
       <p>{{ book.shortDescription }}</p>
       <p>{{ book.longDescription }}</p>
       <br />
-      <form action="" method="post">
+      <form action="{% url 'book.review' %}" method="post">
         {% csrf_token %}
         <textarea
           name="review"
@@ -36,6 +36,10 @@
           Submit
         </button>
       </form>
+      <br />
+      {% for review in reviews %}
+      <p>{{ review.body }}</p>
+      {% endfor %}
     </section>
   </body>
 </html>
