@@ -16,10 +16,12 @@
 
       <div class="grid grid-cols-4 gap-4 mt-10">
         {% for book in books %}
-        <div class="justify-self-center">
-          <p>{{ book.title }}</p>
-          <img src="{{ book.thumbnailUrl }}" alt="" width="200" />
-        </div>
+        <a href="/book/{{book.id}}" class="justify-self-center text-center my-4" target="_blank">
+          <div class="justify-self-center">
+            <img src="{{ book.thumbnailUrl }}" alt="" width="200" />
+            <p>{{ book.title }}</p>
+          </div>
+        </a>
         {% endfor %}
       </div>
     </section>
