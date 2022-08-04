@@ -1,3 +1,4 @@
+from multiprocessing import context
 from django.shortcuts import redirect, render, get_object_or_404
 from .models import Book, Review
 from django.views.generic import ListView, DetailView
@@ -10,7 +11,11 @@ class BookListView(ListView):
 
 class BookDetailView(DetailView):
     model = Book
-    # reviews = Review.objects.filter(book_id=id).order_by("-created_at")
+
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        context["reviews"] = context["book"].review_set.order_by("-created_at")
+        return context
 
 
 def review(request, id):

@@ -38,7 +38,9 @@
       </form>
       <br />
       {% for review in reviews %}
-      <p>{{ review.body }}</p>
+      <p>
+        {{ review.body }} <small>{{ review.created_at|timesince }} ago</small>
+      </p>
       {% endfor %}
     </section>
   </body>
